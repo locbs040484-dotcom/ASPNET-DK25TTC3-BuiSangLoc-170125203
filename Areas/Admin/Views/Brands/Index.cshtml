@@ -1,0 +1,3 @@
+@model List<Brand>
+<h1 class="h4">Thương hiệu <a class="btn-primary btn-sm" href="/admin/brands/create">Thêm</a></h1>
+<table class="table">@foreach (var b in Model){<tr><td><img src="@b.Logo" width="48" /></td><td>@b.Name</td><td><a href="/admin/brands/edit/@b.Id">Sửa</a></td></tr>}</table>

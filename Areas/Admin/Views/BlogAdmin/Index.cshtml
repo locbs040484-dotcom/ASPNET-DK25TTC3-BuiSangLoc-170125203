@@ -1,0 +1,3 @@
+@model List<BlogPost>
+<h1 class="h4">Blog <a class="btn-primary btn-sm" href="/admin/blogadmin/create">Thêm</a></h1>
+<table class="table">@foreach (var p in Model){<tr><td>@p.Title</td><td>@p.BlogCategory.Name</td><td><a href="/admin/blogadmin/edit/@p.Id">Sửa</a></td></tr>}</table>

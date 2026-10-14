@@ -1,0 +1,16 @@
+@model AddressVm
+@{ ViewData["Title"] = Model.Id == 0 ? "Thêm địa chỉ" : "Sửa địa chỉ"; }
+<div class="container-xl page-head"><h1 class="h3">@ViewData["Title"]</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <form method="post" class="panel">
+        <label class="form-label">Người nhận</label><input asp-for="ReceiverName" class="form-control mb-2" />
+        <label class="form-label">SĐT</label><input asp-for="Phone" class="form-control mb-2" />
+        <label class="form-label">Tỉnh/thành</label><input asp-for="Province" class="form-control mb-2" />
+        <label class="form-label">Quận/huyện</label><input asp-for="District" class="form-control mb-2" />
+        <label class="form-label">Phường/xã</label><input asp-for="Ward" class="form-control mb-2" />
+        <label class="form-label">Địa chỉ</label><input asp-for="AddressLine" class="form-control mb-2" />
+        <label class="mb-3"><input asp-for="IsDefault" /> Đặt làm mặc định</label>
+        <button class="btn-primary">Lưu</button>
+    </form>
+</div>

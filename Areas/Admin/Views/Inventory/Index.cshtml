@@ -1,0 +1,19 @@
+@model List<Product>
+<h1 class="h4">Tồn kho</h1>
+<div class="mb-3"><a href="/admin/inventory">Tất cả</a> · <a href="/admin/inventory?filter=low">Sắp hết</a> · <a href="/admin/inventory?filter=out">Hết hàng</a></div>
+<table class="table">
+@foreach (var p in Model)
+{
+    <tr>
+        <td>@p.ProductCode</td><td>@p.Name</td>
+        <td>@(p.StockQuantity<=5 ? Html.Raw("<span class='status-badge badge-danger'>Sắp hết hàng</span>") : null) @p.StockQuantity</td>
+        <td>
+            <form method="post" asp-action="Adjust" class="d-flex gap-2">
+                <input type="hidden" name="id" value="@p.Id" />
+                <input name="stock" value="@p.StockQuantity" class="form-control" style="width:90px" />
+                <button class="btn-outline btn-sm">Lưu</button>
+            </form>
+        </td>
+    </tr>
+}
+</table>

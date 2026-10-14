@@ -1,0 +1,30 @@
+@model List<Order>
+@{ ViewData["Title"] = "Đơn hàng"; }
+<h1 class="h4 mb-3">Đơn hàng</h1>
+<form class="d-flex gap-2 mb-3" method="get">
+    <input name="q" class="form-control" placeholder="Mã / tên / SĐT" />
+    <select name="status" class="form-select" onchange="this.form.submit()">
+        <option value="">Tất cả</option>
+        @foreach (OrderStatus s in Enum.GetValues<OrderStatus>())
+        {
+            <option value="@s">@OrderStatusHelper.ToVietnamese(s)</option>
+        }
+    </select>
+    <button class="btn-outline">Lọc</button>
+</form>
+<table class="table">
+    <thead><tr><th>Mã</th><th>Khách</th><th>Ngày</th><th>Tổng</th><th>Thanh toán</th><th>Trạng thái</th></tr></thead>
+    <tbody>
+    @foreach (var o in Model)
+    {
+        <tr>
+            <td><a href="/admin/orders/details/@o.Id">@o.OrderCode</a></td>
+            <td>@o.ReceiverName</td>
+            <td>@o.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy")</td>
+            <td>@CurrencyHelper.ToVnd(o.TotalAmount)</td>
+            <td>@OrderStatusHelper.PaymentToVietnamese(o.PaymentStatus)</td>
+            <td><span class="status-badge @OrderStatusHelper.BadgeClass(o.OrderStatus)">@OrderStatusHelper.ToVietnamese(o.OrderStatus)</span></td>
+        </tr>
+    }
+    </tbody>
+</table>

@@ -1,0 +1,3 @@
+@model List<Category>
+<h1 class="h4">Danh mục <a class="btn-primary btn-sm" href="/admin/categories/create">Thêm</a></h1>
+<table class="table">@foreach (var c in Model){<tr><td>@c.Name</td><td>@c.Slug</td><td><a href="/admin/categories/edit/@c.Id">Sửa</a></td></tr>}</table>

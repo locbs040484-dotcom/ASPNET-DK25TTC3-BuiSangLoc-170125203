@@ -1,0 +1,26 @@
+@model List<ApplicationUser>
+@{
+    var stats = ViewBag.Stats as Dictionary<string, (int Count, decimal Spent)> ?? new();
+}
+<h1 class="h4">Khách hàng</h1>
+<form method="get" class="d-flex gap-2 mb-3"><input name="q" class="form-control" /><button class="btn-outline">Tìm</button></form>
+<table class="table">
+    <thead><tr><th>Tên</th><th>Email</th><th>Đơn</th><th>Chi tiêu</th><th>Ngày</th><th>TT</th><th></th></tr></thead>
+    <tbody>
+    @foreach (var u in Model)
+    {
+        stats.TryGetValue(u.Id, out var st);
+        <tr>
+            <td>@u.FullName</td><td>@u.Email</td><td>@st.Count</td><td>@CurrencyHelper.ToVnd(st.Spent)</td>
+            <td>@u.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy")</td>
+            <td>@(u.IsActive ? "Hoạt động" : "Khóa")</td>
+            <td>
+                @if (User.IsInRole("Admin"))
+                {
+                    <form method="post" asp-action="ToggleLock" class="d-inline"><input type="hidden" name="id" value="@u.Id" /><button class="btn-outline btn-sm">@(u.IsActive?"Khóa":"Mở")</button></form>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

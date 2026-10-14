@@ -1,0 +1,7 @@
+@model List<ProductCardVm>
+@{ ViewData["Title"] = "Đã xem"; }
+<div class="container-xl page-head"><h1 class="h3">Sản phẩm vừa xem</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <div class="product-grid">@foreach (var p in Model) { <partial name="_ProductCard" model="p" /> }</div>
+</div>

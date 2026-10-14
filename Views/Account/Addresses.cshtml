@@ -1,0 +1,22 @@
+@model List<UserAddress>
+@{ ViewData["Title"] = "Sổ địa chỉ"; }
+<div class="container-xl page-head"><h1 class="h3">Sổ địa chỉ</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <div>
+        <a class="btn-primary mb-3" href="/account/addresses/create">Thêm địa chỉ</a>
+        @if (!Model.Any())
+        {
+            <div class="empty-state">Chưa có địa chỉ nhận hàng.</div>
+        }
+        @foreach (var a in Model)
+        {
+            <div class="panel mb-3">
+                <strong>@a.ReceiverName</strong> · @a.Phone @(a.IsDefault ? "(Mặc định)" : "")
+                <div>@a.AddressLine, @a.Ward, @a.District, @a.Province</div>
+                <a href="/account/addresses/@a.Id/edit">Sửa</a>
+                <form method="post" asp-action="DeleteAddress" asp-route-id="@a.Id" class="d-inline"><button class="btn-outline btn-sm">Xóa</button></form>
+            </div>
+        }
+    </div>
+</div>

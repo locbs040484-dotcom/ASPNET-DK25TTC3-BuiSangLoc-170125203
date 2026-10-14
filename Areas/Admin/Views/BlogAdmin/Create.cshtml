@@ -1,0 +1,13 @@
+@model BlogPost
+<form method="post" class="panel">
+    <select asp-for="BlogCategoryId" class="form-select mb-2">
+        @foreach (var c in (List<BlogCategory>)ViewBag.Categories) { <option value="@c.Id">@c.Name</option> }
+    </select>
+    <input asp-for="Title" class="form-control mb-2" placeholder="Tiêu đề" />
+    <input asp-for="Thumbnail" class="form-control mb-2" placeholder="Ảnh" />
+    <input asp-for="ShortDescription" class="form-control mb-2" />
+    <textarea asp-for="Content" class="form-control mb-2" rows="8"></textarea>
+    <input asp-for="Author" class="form-control mb-2" />
+    <label><input asp-for="IsPublished" /> Xuất bản</label>
+    <button class="btn-primary d-block mt-2">Lưu</button>
+</form>

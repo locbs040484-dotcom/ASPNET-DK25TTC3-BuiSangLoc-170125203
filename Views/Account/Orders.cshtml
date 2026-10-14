@@ -1,0 +1,38 @@
+@model List<Order>
+@{ ViewData["Title"] = "Đơn hàng"; var status = ViewBag.Status as OrderStatus?; }
+<div class="container-xl page-head"><div class="breadcrumb"><a href="/">Trang chủ</a> › Đơn hàng</div><h1 class="h3">Lịch sử đơn hàng</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <div>
+        <div class="mb-3 d-flex gap-2 flex-wrap">
+            <a class="btn-outline btn-sm" href="/account/orders">Tất cả</a>
+            <a class="btn-outline btn-sm" href="/account/orders?status=Pending">Chờ xác nhận</a>
+            <a class="btn-outline btn-sm" href="/account/orders?status=Shipping">Đang giao</a>
+            <a class="btn-outline btn-sm" href="/account/orders?status=Completed">Hoàn thành</a>
+            <a class="btn-outline btn-sm" href="/account/orders?status=Cancelled">Đã hủy</a>
+        </div>
+        @if (!Model.Any())
+        {
+            <div class="empty-state"><h3>Chưa có đơn hàng</h3><p class="muted">Bạn chưa đặt máy nào.</p><a class="btn-primary" href="/products">Mua laptop</a></div>
+        }
+        else
+        {
+            <table class="table">
+                <thead><tr><th>Mã đơn</th><th>Ngày</th><th>SP</th><th>Tổng</th><th>Trạng thái</th><th>Thanh toán</th></tr></thead>
+                <tbody>
+                @foreach (var o in Model)
+                {
+                    <tr>
+                        <td><a href="/account/orders/@o.OrderCode">@o.OrderCode</a></td>
+                        <td>@o.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy")</td>
+                        <td>@o.Details.Sum(d => d.Quantity)</td>
+                        <td>@CurrencyHelper.ToVnd(o.TotalAmount)</td>
+                        <td><span class="status-badge @OrderStatusHelper.BadgeClass(o.OrderStatus)">@OrderStatusHelper.ToVietnamese(o.OrderStatus)</span></td>
+                        <td>@OrderStatusHelper.PaymentToVietnamese(o.PaymentStatus)</td>
+                    </tr>
+                }
+                </tbody>
+            </table>
+        }
+    </div>
+</div>

@@ -1,0 +1,9 @@
+@model Product
+@{ ViewData["Title"] = Model.Name; }
+<h1 class="h4">@Model.Name</h1>
+<div class="panel">
+    <p>Mã @Model.ProductCode · @Model.Brand?.Name · Tồn @Model.StockQuantity · Đã bán @Model.SoldQuantity</p>
+    <p>@CurrencyHelper.ToVnd(Model.DisplayPrice)</p>
+    <p>@Model.Description</p>
+    <a href="/admin/products/edit/@Model.Id">Sửa</a>
+</div>

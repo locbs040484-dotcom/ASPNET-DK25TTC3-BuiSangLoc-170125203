@@ -1,0 +1,98 @@
+@model ProductListVm
+@{
+    ViewData["Title"] = "Laptop";
+    var f = Model.Filter;
+    bool On(List<string> list, string v) => list.Contains(v);
+}
+<div class="container-xl page-head">
+    <div class="breadcrumb"><a href="/">Trang chủ</a> › Laptop</div>
+    <h1 class="h3">Laptop</h1>
+    <div class="muted">@Model.TotalItems sản phẩm</div>
+</div>
+<div class="container-xl pb-5">
+    <div class="layout-2">
+        <form method="get" class="filter-box">
+            <input type="hidden" name="q" value="@f.Q" />
+            <input type="hidden" name="category" value="@f.Category" />
+            <h4>Thương hiệu</h4>
+            @foreach (var b in new[] { "asus", "acer", "dell", "hp", "lenovo", "msi", "apple" })
+            {
+                <label><input type="checkbox" name="brands" value="@b" @(On(f.Brands, b) ? "checked" : "") /> @b.ToUpper()</label>
+            }
+            <h4>Khoảng giá</h4>
+            @{
+                var prices = new Dictionary<string, string> { ["under-10"] = "Dưới 10 triệu", ["10-15"] = "10–15 triệu", ["15-20"] = "15–20 triệu", ["20-30"] = "20–30 triệu", ["30-40"] = "30–40 triệu", ["over-40"] = "Trên 40 triệu" };
+            }
+            @foreach (var p in prices)
+            {
+                <label><input type="checkbox" name="priceRanges" value="@p.Key" @(On(f.PriceRanges, p.Key) ? "checked" : "") /> @p.Value</label>
+            }
+            <h4>CPU</h4>
+            @foreach (var c in new Dictionary<string,string>{["i3"]="Core i3",["i5"]="Core i5",["i7"]="Core i7",["ultra"]="Core Ultra",["r5"]="Ryzen 5",["r7"]="Ryzen 7",["m2"]="Apple M2",["m3"]="Apple M3"})
+            {
+                <label><input type="checkbox" name="cpus" value="@c.Key" @(On(f.Cpus, c.Key) ? "checked" : "") /> @c.Value</label>
+            }
+            <h4>RAM</h4>
+            @foreach (var r in new[] { "8", "16", "32", "64" })
+            {
+                <label><input type="checkbox" name="rams" value="@r" @(On(f.Rams, r) ? "checked" : "") /> @r GB</label>
+            }
+            <h4>SSD</h4>
+            @foreach (var s in new[] { "256", "512", "1024", "2048" })
+            {
+                <label><input type="checkbox" name="storages" value="@s" @(On(f.Storages, s) ? "checked" : "") /> @(s == "1024" ? "1TB" : s == "2048" ? "2TB" : s + "GB")</label>
+            }
+            <h4>GPU</h4>
+            @foreach (var g in new Dictionary<string,string>{["integrated"]="Integrated",["rtx2050"]="RTX 2050",["rtx3050"]="RTX 3050",["rtx4050"]="RTX 4050",["rtx4060"]="RTX 4060",["rtx4070"]="RTX 4070"})
+            {
+                <label><input type="checkbox" name="gpus" value="@g.Key" @(On(f.Gpus, g.Key) ? "checked" : "") /> @g.Value</label>
+            }
+            <h4>Màn hình</h4>
+            @foreach (var s in new[] { "13.4", "14", "15.6", "16", "17.3" })
+            {
+                <label><input type="checkbox" name="screens" value="@s" @(On(f.Screens, s) ? "checked" : "") /> @s inch</label>
+            }
+            <h4>Refresh rate</h4>
+            @foreach (var r in new[] { "60", "90", "120", "144", "165", "240" })
+            {
+                <label><input type="checkbox" name="refreshRates" value="@r" @(On(f.RefreshRates, r) ? "checked" : "") /> @r Hz</label>
+            }
+            <button class="btn-primary w-100 mt-3" type="submit">Lọc sản phẩm</button>
+        </form>
+        <div>
+            <div class="toolbar">
+                <div>Sắp xếp</div>
+                <form method="get" class="d-flex gap-2">
+                    <input type="hidden" name="q" value="@f.Q" />
+                    <input type="hidden" name="category" value="@f.Category" />
+                    <select name="sort" class="form-select" onchange="this.form.submit()">
+                        <option value="newest" selected="@(f.Sort=="newest")">Mới nhất</option>
+                        <option value="bestseller" selected="@(f.Sort=="bestseller")">Bán chạy</option>
+                        <option value="price-asc" selected="@(f.Sort=="price-asc")">Giá thấp → cao</option>
+                        <option value="price-desc" selected="@(f.Sort=="price-desc")">Giá cao → thấp</option>
+                        <option value="discount" selected="@(f.Sort=="discount")">Giảm giá nhiều</option>
+                        <option value="rating" selected="@(f.Sort=="rating")">Đánh giá cao</option>
+                    </select>
+                </form>
+            </div>
+            @if (!Model.Products.Any())
+            {
+                <div class="empty-state">
+                    <h3>Không tìm thấy laptop phù hợp</h3>
+                    <p class="muted">Hãy thử bỏ bớt bộ lọc hoặc tìm từ khóa khác.</p>
+                    <a class="btn-primary" href="/products">Xem tất cả laptop</a>
+                </div>
+            }
+            else
+            {
+                <div class="product-grid">
+                    @foreach (var p in Model.Products)
+                    {
+                        <partial name="_ProductCard" model="p" />
+                    }
+                </div>
+                <partial name="_Pagination" model="@( (Model.Filter.Page, Model.TotalPages, "/products?q=" + f.Q + "&category=" + f.Category + "&sort=" + f.Sort) )" />
+            }
+        </div>
+    </div>
+</div>

@@ -1,0 +1,17 @@
+@model List<Review>
+<h1 class="h4">Đánh giá</h1>
+<table class="table">
+@foreach (var r in Model)
+{
+    <tr>
+        <td>@r.Product.Name</td><td>@r.User.FullName</td><td>@r.Rating★</td><td>@r.Comment</td>
+        <td>
+            <form method="post" asp-action="Hide" class="d-inline">
+                <input type="hidden" name="id" value="@r.Id" />
+                <input type="hidden" name="hide" value="@((!r.IsHidden).ToString().ToLower())" />
+                <button class="btn-outline btn-sm">@(r.IsHidden ? "Hiện" : "Ẩn vi phạm")</button>
+            </form>
+        </td>
+    </tr>
+}
+</table>

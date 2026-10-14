@@ -1,0 +1,51 @@
+@model ProductFormVm
+<div class="row g-3">
+    <div class="col-md-4"><label class="form-label">Mã SP</label><input asp-for="ProductCode" class="form-control" /></div>
+    <div class="col-md-8"><label class="form-label">Tên</label><input asp-for="Name" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Thương hiệu</label><select asp-for="BrandId" asp-items="Model.Brands" class="form-select"></select></div>
+    <div class="col-md-4"><label class="form-label">Danh mục</label><select asp-for="CategoryId" asp-items="Model.Categories" class="form-select"></select></div>
+    <div class="col-md-4"><label class="form-label">Tồn kho</label><input asp-for="StockQuantity" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Giá gốc</label><input asp-for="OriginalPrice" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Giá bán</label><input asp-for="SalePrice" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Bảo hành (tháng)</label><input asp-for="WarrantyMonths" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">CPU</label><select asp-for="CpuId" asp-items="Model.Cpus" class="form-select"><option value="">--</option></select></div>
+    <div class="col-md-4"><label class="form-label">GPU</label><select asp-for="GpuId" asp-items="Model.Gpus" class="form-select"><option value="">--</option></select></div>
+    <div class="col-md-4"><label class="form-label">RAM</label><select asp-for="RamOptionId" asp-items="Model.Rams" class="form-select"><option value="">--</option></select></div>
+    <div class="col-md-4"><label class="form-label">Ổ cứng</label><select asp-for="StorageOptionId" asp-items="Model.Storages" class="form-select"><option value="">--</option></select></div>
+    <div class="col-md-4"><label class="form-label">Màn hình</label><select asp-for="ScreenOptionId" asp-items="Model.Screens" class="form-select"><option value="">--</option></select></div>
+    <div class="col-md-4"><label class="form-label">Màu</label><select asp-for="ColorOptionId" asp-items="Model.Colors" class="form-select"><option value="">--</option></select></div>
+    <div class="col-12"><label class="form-label">Mô tả ngắn</label><input asp-for="ShortDescription" class="form-control" /></div>
+    <div class="col-12"><label class="form-label">Mô tả</label><textarea asp-for="Description" class="form-control" rows="4"></textarea></div>
+    <div class="col-md-6"><label class="form-label">Tên CPU chi tiết</label><input asp-for="CpuName" class="form-control" /></div>
+    <div class="col-md-3"><label class="form-label">RAM Type</label><input asp-for="RamType" class="form-control" /></div>
+    <div class="col-md-3"><label class="form-label">RAM Bus</label><input asp-for="RamBus" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">SSD label</label><input asp-for="StorageLabel" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Màn hình</label><input asp-for="ScreenLabel" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Refresh</label><input asp-for="RefreshRate" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">OS</label><input asp-for="OperatingSystem" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Pin</label><input asp-for="Battery" class="form-control" /></div>
+    <div class="col-md-4"><label class="form-label">Cân nặng</label><input asp-for="Weight" class="form-control" /></div>
+    <div class="col-12"><label class="form-label">Cổng</label><input asp-for="Ports" class="form-control" /></div>
+    <div class="col-12">
+        <label><input asp-for="IsFeatured" /> Nổi bật</label>
+        <label class="ms-3"><input asp-for="IsNew" /> Mới</label>
+        <label class="ms-3"><input asp-for="IsBestSeller" /> Bán chạy</label>
+        <label class="ms-3"><input asp-for="IsActive" /> Active</label>
+    </div>
+    <div class="col-12"><label class="form-label">Ảnh mới</label><input type="file" name="images" multiple class="form-control" /></div>
+    @if (Model.ExistingImages.Any())
+    {
+        <div class="col-12">
+            <label class="form-label">Ảnh đại diện</label>
+            <div class="d-flex gap-2 flex-wrap">
+                @foreach (var img in Model.ExistingImages)
+                {
+                    <label class="text-center">
+                        <img src="@img.ImageUrl" width="80" style="object-fit:contain" /><br />
+                        <input type="radio" name="PrimaryImageId" value="@img.Id" checked="@img.IsPrimary" />
+                    </label>
+                }
+            </div>
+        </div>
+    }
+</div>

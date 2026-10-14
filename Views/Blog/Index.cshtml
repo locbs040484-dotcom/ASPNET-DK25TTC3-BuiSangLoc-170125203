@@ -1,0 +1,22 @@
+@model List<BlogPost>
+@{ ViewData["Title"] = "Tin tức"; }
+<div class="container-xl page-head"><div class="breadcrumb"><a href="/">Trang chủ</a> › Tin tức</div><h1 class="h3">Tin tức & tư vấn</h1></div>
+<div class="container-xl pb-5">
+    <div class="blog-grid">
+        @foreach (var p in Model)
+        {
+            <a class="blog-card" href="/blog/@p.Slug">
+                <img src="@p.Thumbnail" alt="@p.Title" />
+                <div class="body">
+                    <div class="muted small">@p.BlogCategory.Name · @p.PublishedAt.ToLocalTime().ToString("dd/MM/yyyy")</div>
+                    <h5>@p.Title</h5>
+                    <p class="muted mb-0">@p.ShortDescription</p>
+                </div>
+            </a>
+        }
+    </div>
+    @{
+        var pageModel = ((int)ViewBag.Page, (int)ViewBag.TotalPages, "/blog");
+    }
+    <partial name="_Pagination" model="pageModel" />
+</div>

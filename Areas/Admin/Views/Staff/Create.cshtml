@@ -1,0 +1,9 @@
+@model StaffForm
+<form method="post" class="panel">
+    <input asp-for="FullName" class="form-control mb-2" placeholder="Họ tên" />
+    <input asp-for="Email" class="form-control mb-2" placeholder="Email" />
+    <input asp-for="Phone" class="form-control mb-2" />
+    <input asp-for="Password" class="form-control mb-2" />
+    <select asp-for="Role" class="form-select mb-2"><option>Staff</option><option>Admin</option></select>
+    <button class="btn-primary">Tạo</button>
+</form>

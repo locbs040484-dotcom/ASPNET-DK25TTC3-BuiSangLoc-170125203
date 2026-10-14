@@ -1,0 +1,12 @@
+@model (int Page, int TotalPages, string BaseUrl)
+@if (Model.TotalPages > 1)
+{
+    <div class="pagination">
+        @for (var i = 1; i <= Model.TotalPages; i++)
+        {
+            var sep = Model.BaseUrl.Contains('?') ? "&" : "?";
+            if (i == Model.Page) { <span class="btn-primary">@i</span> }
+            else { <a href="@(Model.BaseUrl + sep)page=@i">@i</a> }
+        }
+    </div>
+}

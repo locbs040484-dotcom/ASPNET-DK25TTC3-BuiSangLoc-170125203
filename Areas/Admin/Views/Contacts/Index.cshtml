@@ -1,0 +1,15 @@
+@model List<ContactMessage>
+<h1 class="h4">Liên hệ</h1>
+@foreach (var c in Model)
+{
+    <div class="panel mb-3">
+        <strong>@c.Subject</strong> · @c.Name · @c.Email · @c.Phone
+        <p>@c.Message</p>
+        <form method="post" asp-action="Update" class="d-flex gap-2">
+            <input type="hidden" name="id" value="@c.Id" />
+            <select name="status" class="form-select" asp-items="Html.GetEnumSelectList<ContactStatus>()"></select>
+            <input name="adminNote" value="@c.AdminNote" class="form-control" placeholder="Ghi chú" />
+            <button class="btn-outline">Lưu</button>
+        </form>
+    </div>
+}

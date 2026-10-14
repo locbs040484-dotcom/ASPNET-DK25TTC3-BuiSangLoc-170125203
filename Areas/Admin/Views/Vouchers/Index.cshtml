@@ -1,0 +1,3 @@
+@model List<Voucher>
+<h1 class="h4">Voucher <a class="btn-primary btn-sm" href="/admin/vouchers/create">Thêm</a></h1>
+<table class="table">@foreach (var v in Model){<tr><td>@v.Code</td><td>@v.Description</td><td>@v.UsedQuantity/@v.Quantity</td><td>@(v.IsActive?"Active":"Off")</td><td><a href="/admin/vouchers/edit/@v.Id">Sửa</a></td></tr>}</table>

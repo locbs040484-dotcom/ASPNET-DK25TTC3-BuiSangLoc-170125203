@@ -1,0 +1,37 @@
+@model List<Product>
+@{ ViewData["Title"] = "Sản phẩm"; }
+<div class="d-flex justify-content-between mb-3"><h1 class="h4">Sản phẩm</h1>@if(User.IsInRole("Admin")){<a class="btn-primary" href="/admin/products/create">Thêm sản phẩm</a>}</div>
+<form class="d-flex gap-2 mb-3" method="get">
+    <input name="q" value="@ViewBag.Q" class="form-control" placeholder="Tìm tên / mã" />
+    <button class="btn-outline">Tìm</button>
+</form>
+<table class="table">
+    <thead><tr><th>Ảnh</th><th>Mã</th><th>Tên</th><th>Hãng</th><th>Giá</th><th>Tồn</th><th>Đã bán</th><th>TT</th><th></th></tr></thead>
+    <tbody>
+    @foreach (var p in Model)
+    {
+        <tr>
+            <td><img src="@(p.PrimaryImage)" width="56" style="object-fit:contain" /></td>
+            <td>@p.ProductCode</td>
+            <td>@p.Name</td>
+            <td>@p.Brand.Name</td>
+            <td>@CurrencyHelper.ToVnd(p.DisplayPrice)</td>
+            <td>@(p.StockQuantity <= 5 ? Html.Raw($"<span class='status-badge badge-danger'>Sắp hết hàng ({p.StockQuantity})</span>") : p.StockQuantity.ToString())</td>
+            <td>@p.SoldQuantity</td>
+            <td>@p.Status</td>
+            <td>
+                <a href="/admin/products/details/@p.Id">Xem</a>
+                <a href="/admin/products/edit/@p.Id">Sửa</a>
+                @if (User.IsInRole("Admin"))
+                {
+                    <form method="post" asp-action="Delete" asp-route-id="@p.Id" class="d-inline"><button class="btn-outline btn-sm">Ẩn</button></form>
+                }
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>
+@{
+    var pageModel = ((int)ViewBag.Page, (int)ViewBag.TotalPages, "/admin/products");
+}
+<partial name="_Pagination" model="pageModel" />

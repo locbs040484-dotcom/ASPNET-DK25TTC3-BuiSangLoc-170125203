@@ -1,0 +1,3 @@
+@model List<Banner>
+<h1 class="h4">Banner <a class="btn-primary btn-sm" href="/admin/banners/create">Thêm</a></h1>
+<table class="table">@foreach (var b in Model){<tr><td>@b.Title</td><td>@b.DisplayOrder</td><td><a href="/admin/banners/edit/@b.Id">Sửa</a></td></tr>}</table>

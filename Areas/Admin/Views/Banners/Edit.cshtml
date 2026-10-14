@@ -1,0 +1,12 @@
+@model Banner
+<form method="post" class="panel">
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="Title" class="form-control mb-2" />
+    <input asp-for="Subtitle" class="form-control mb-2" />
+    <input asp-for="ImageUrl" class="form-control mb-2" />
+    <input asp-for="Link" class="form-control mb-2" />
+    <input asp-for="ButtonText" class="form-control mb-2" />
+    <input asp-for="DisplayOrder" class="form-control mb-2" />
+    <label><input asp-for="IsActive" /> Active</label>
+    <button class="btn-primary d-block mt-2">Lưu</button>
+</form>

@@ -1,0 +1,28 @@
+@model List<Product>
+@{ ViewData["Title"] = "So sánh laptop"; }
+<div class="container-xl page-head"><div class="breadcrumb"><a href="/">Trang chủ</a> › So sánh</div><h1 class="h3">So sánh laptop</h1></div>
+<div class="container-xl pb-5">
+    @if (!Model.Any())
+    {
+        <div class="empty-state"><h3>Chưa chọn máy để so sánh</h3><p class="muted">Bấm biểu tượng so sánh trên sản phẩm, tối đa 4 máy.</p><a class="btn-primary" href="/products">Chọn laptop</a></div>
+    }
+    else
+    {
+        <form method="post" asp-action="Clear" class="mb-3"><button class="btn-outline">Xóa so sánh</button></form>
+        <div class="table-responsive">
+            <table class="table">
+                <tr><th>Thông số</th>@foreach (var p in Model) { <th><img src="@(p.PrimaryImage)" width="90" style="object-fit:contain" /><div>@p.Name</div></th> }</tr>
+                <tr><td>Giá</td>@foreach (var p in Model) { <td class="price">@CurrencyHelper.ToVnd(p.DisplayPrice)</td> }</tr>
+                <tr><td>CPU</td>@foreach (var p in Model) { <td>@p.CpuName</td> }</tr>
+                <tr><td>GPU</td>@foreach (var p in Model) { <td>@(p.Gpu?.Name)</td> }</tr>
+                <tr><td>RAM</td>@foreach (var p in Model) { <td>@(p.RamOption?.SizeGB)GB @p.RamType</td> }</tr>
+                <tr><td>SSD</td>@foreach (var p in Model) { <td>@p.StorageLabel</td> }</tr>
+                <tr><td>Màn hình</td>@foreach (var p in Model) { <td>@p.ScreenLabel</td> }</tr>
+                <tr><td>Refresh</td>@foreach (var p in Model) { <td>@p.RefreshRate Hz</td> }</tr>
+                <tr><td>Pin</td>@foreach (var p in Model) { <td>@p.Battery</td> }</tr>
+                <tr><td>Trọng lượng</td>@foreach (var p in Model) { <td>@p.Weight</td> }</tr>
+                <tr><td>Bảo hành</td>@foreach (var p in Model) { <td>@p.WarrantyMonths tháng</td> }</tr>
+            </table>
+        </div>
+    }
+</div>

@@ -1,0 +1,9 @@
+@{ ViewData["Title"] = ViewBag.Title; Layout = "_Layout"; }
+<div class="container-xl py-5">
+    <div class="empty-state">
+        <div class="muted">Lỗi @ViewBag.Code</div>
+        <h1>@ViewBag.Title</h1>
+        <p>@ViewBag.Message</p>
+        <a class="btn-primary" href="/">Về trang chủ</a>
+    </div>
+</div>

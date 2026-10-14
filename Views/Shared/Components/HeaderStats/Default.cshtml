@@ -1,0 +1,70 @@
+@using LaptopStore.Models
+@{
+    var setting = ViewBag.Setting as WebsiteSetting ?? new WebsiteSetting();
+    var cats = ViewBag.Categories as List<Category> ?? new();
+    var notes = ViewBag.Notes as List<Notification> ?? new();
+}
+<div class="topbar">
+    <div class="container-xl row-between">
+        <div>Hotline: <strong>@setting.Hotline</strong> · @setting.Email</div>
+        <div>
+            <a href="/About/Warranty">Chính sách bảo hành</a>
+            &nbsp;·&nbsp;
+            <a href="@(User.Identity?.IsAuthenticated == true ? "/account/orders" : "/account/login")">Theo dõi đơn hàng</a>
+        </div>
+    </div>
+</div>
+<header class="header-main">
+    <div class="container-xl header-main-inner">
+        <a class="logo" href="/">Laptop<span>Zone</span></a>
+        <form class="search-wrap" action="/products" method="get">
+            <input id="site-search" name="q" value="@Context.Request.Query["q"]" placeholder="Tìm laptop, thương hiệu, CPU, GPU..." autocomplete="off" />
+            <button type="submit"><i class="bi bi-search"></i></button>
+            <div id="suggest-box" class="suggest-box"></div>
+        </form>
+        <div class="header-actions">
+            @if (User.Identity?.IsAuthenticated == true)
+            {
+                <div class="dropdown">
+                    <a class="icon-link" href="#" data-bs-toggle="dropdown"><i class="bi bi-bell"></i> Thông báo <span id="notif-count" class="badge-count">@ViewBag.Unread</span></a>
+                    <div class="dropdown-menu dropdown-menu-end notif-drop p-2">
+                        @if (!notes.Any())
+                        {
+                            <div class="p-2 muted">Chưa có thông báo</div>
+                        }
+                        @foreach (var n in notes)
+                        {
+                            <a class="dropdown-item small @(n.IsRead ? "" : "fw-bold")" href="@(n.Link ?? "/account/notifications")">@n.Title</a>
+                        }
+                        <a class="dropdown-item text-primary" href="/account/notifications">Xem tất cả</a>
+                    </div>
+                </div>
+                <a class="icon-link" href="/account"><i class="bi bi-person"></i> Tài khoản</a>
+            }
+            else
+            {
+                <a class="icon-link" href="/account/login"><i class="bi bi-person"></i> Tài khoản</a>
+            }
+            <a class="icon-link" href="/account/wishlist"><i class="bi bi-heart"></i> Yêu thích <span id="wish-count" class="badge-count">@ViewBag.WishCount</span></a>
+            <a class="icon-link" href="/cart"><i class="bi bi-bag"></i> Giỏ hàng <span id="cart-count" class="badge-count">@ViewBag.CartCount</span></a>
+        </div>
+    </div>
+</header>
+<nav class="navbar-store">
+    <div class="container-xl">
+        <button class="btn btn-outline d-md-none my-2" type="button" data-bs-toggle="collapse" data-bs-target="#mainnav">Menu</button>
+        <div id="mainnav" class="collapse d-md-block">
+            <div class="nav">
+                <a class="nav-link" href="/">Trang chủ</a>
+                <a class="nav-link" href="/products">Laptop</a>
+                <a class="nav-link" href="/products?category=laptop-gaming">Gaming</a>
+                <a class="nav-link" href="/products?category=laptop-van-phong">Văn phòng</a>
+                <a class="nav-link" href="/products?category=laptop-sinh-vien">Sinh viên</a>
+                <a class="nav-link" href="/products?category=macbook">MacBook</a>
+                <a class="nav-link" href="/products?sort=discount">Khuyến mãi</a>
+                <a class="nav-link" href="/blog">Tin tức</a>
+                <a class="nav-link" href="/contact">Liên hệ</a>
+            </div>
+        </div>
+    </div>
+</nav>

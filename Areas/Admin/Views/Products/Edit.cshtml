@@ -1,0 +1,7 @@
+@model ProductFormVm
+@{ ViewData["Title"] = "Sửa sản phẩm"; }
+<h1 class="h4 mb-3">Sửa sản phẩm</h1>
+<form method="post" enctype="multipart/form-data" class="panel">
+    <partial name="_Form" model="Model" />
+    <button class="btn-primary mt-3">Lưu</button>
+</form>

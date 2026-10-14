@@ -1,0 +1,47 @@
+@model Order
+@{ ViewData["Title"] = Model.OrderCode; }
+<h1 class="h4">Đơn @Model.OrderCode</h1>
+<div class="row g-3">
+    <div class="col-lg-6 panel">
+        <h5>Khách hàng</h5>
+        <p>@Model.ReceiverName · @Model.Phone · @Model.Email</p>
+        <p>@Model.Address</p>
+        <p>Ghi chú khách: @Model.Note</p>
+        <form method="post" asp-action="Note">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <textarea name="staffNote" class="form-control mb-2">@Model.StaffNote</textarea>
+            <button class="btn-outline btn-sm">Lưu ghi chú</button>
+        </form>
+    </div>
+    <div class="col-lg-6 panel">
+        <h5>Cập nhật trạng thái</h5>
+        <form method="post" asp-action="UpdateStatus">
+            <input type="hidden" name="id" value="@Model.Id" />
+            <select name="status" class="form-select mb-2">
+                @foreach (OrderStatus s in Enum.GetValues<OrderStatus>())
+                {
+                    <option value="@s" selected="@(s==Model.OrderStatus)">@OrderStatusHelper.ToVietnamese(s)</option>
+                }
+            </select>
+            <input name="note" class="form-control mb-2" placeholder="Ghi chú trạng thái" />
+            <label class="mb-2"><input type="checkbox" name="markPaid" value="true" /> Xác nhận thanh toán</label>
+            <button class="btn-primary d-block">Cập nhật</button>
+        </form>
+    </div>
+    <div class="col-12 panel">
+        @foreach (var d in Model.Details)
+        {
+            <div class="d-flex justify-content-between"><span>@d.ProductName x @d.Quantity</span><span>@CurrencyHelper.ToVnd(d.SubTotal)</span></div>
+        }
+        <div class="mt-2">Voucher: @(Model.VoucherCode ?? "—") · Tổng @CurrencyHelper.ToVnd(Model.TotalAmount)</div>
+    </div>
+    <div class="col-12 panel">
+        <h5>Timeline</h5>
+        <div class="timeline">
+            @foreach (var h in Model.StatusHistories.OrderBy(x => x.CreatedAt))
+            {
+                <div class="timeline-item"><strong>@OrderStatusHelper.ToVietnamese(h.Status)</strong><div class="muted">@h.CreatedAt.ToLocalTime() · @h.Note</div></div>
+            }
+        </div>
+    </div>
+</div>

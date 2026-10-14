@@ -1,0 +1,149 @@
+@model ProductDetailVm
+@{
+    var p = Model.Product;
+    ViewData["Title"] = p.MetaTitle ?? p.Name;
+    ViewData["MetaDescription"] = p.MetaDescription ?? p.ShortDescription;
+}
+<div class="container-xl page-head">
+    <div class="breadcrumb"><a href="/">Trang chủ</a> › <a href="/products?category=@p.Category.Slug">@p.Category.Name</a> › @p.Name</div>
+</div>
+<div class="container-xl pb-4">
+    <div class="detail-grid">
+        <div>
+            <div class="gallery-main">
+                <img id="main-img" src="@(Model.Images.FirstOrDefault()?.ImageUrl ?? "/images/products/placeholder.jpg")" alt="@p.Name" />
+            </div>
+            <div class="thumbs">
+                @foreach (var img in Model.Images)
+                {
+                    <img src="@img.ImageUrl" alt="" onclick="document.getElementById('main-img').src=this.src" />
+                }
+            </div>
+        </div>
+        <div class="buy-box">
+            <div class="brand-label">@p.Brand.Name</div>
+            <h1 class="h3">@p.Name</h1>
+            <div class="mb-2"><span class="stars">★★★★★</span> @Model.AverageRating/5 · @Model.ReviewCount đánh giá · Đã bán @p.SoldQuantity</div>
+            <div class="muted mb-2">Mã SP: @p.ProductCode · @(p.StockQuantity > 0 ? $"Còn {p.StockQuantity} máy" : "Hết hàng")</div>
+            <div class="price h3">@CurrencyHelper.ToVnd(p.DisplayPrice)</div>
+            @if (p.HasDiscount)
+            {
+                <div class="price-old">@CurrencyHelper.ToVnd(p.OriginalPrice)</div>
+                <span class="badge-soft badge-sale">GIẢM @p.ComputedDiscount%</span>
+            }
+            <p class="mt-3">@p.ShortDescription</p>
+            <div class="muted mb-2">Quà tặng: balo LaptopZone + chuột không dây cho đơn từ 15 triệu.</div>
+            <div class="muted mb-3">Bảo hành @p.WarrantyMonths tháng chính hãng.</div>
+            <div class="d-flex gap-2 align-items-center mb-3">
+                <div class="qty-box">
+                    <button type="button" onclick="var i=document.getElementById('qty'); i.value=Math.max(1,+i.value-1)">-</button>
+                    <input id="qty" value="1" />
+                    <button type="button" onclick="var i=document.getElementById('qty'); i.value=Math.min(@p.StockQuantity,+i.value+1)">+</button>
+                </div>
+                <button class="btn-primary" data-add-cart="@p.Id" id="add-detail">Thêm giỏ hàng</button>
+                <a class="btn-dark" href="/cart" onclick="event.preventDefault(); document.getElementById('add-detail').click(); setTimeout(()=>location.href='/cart',400)">Mua ngay</a>
+            </div>
+            <div class="d-flex gap-2">
+                <button class="btn-outline" data-wish="@p.Id">@(Model.InWishlist ? "Đã yêu thích" : "Yêu thích")</button>
+                <button class="btn-outline" data-compare="@p.Id">So sánh</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabs">
+        <button class="active" data-tab="desc">Mô tả</button>
+        <button data-tab="spec">Thông số kỹ thuật</button>
+        <button data-tab="review">Đánh giá</button>
+        <button data-tab="warranty">Chính sách bảo hành</button>
+    </div>
+    <div id="tab-desc" class="panel">@p.Description</div>
+    <div id="tab-spec" class="panel d-none">
+        <table class="spec-table">
+            <tr><td>CPU</td><td>@p.CpuName</td></tr>
+            <tr><td>RAM</td><td>@(p.RamOption != null ? p.RamOption.SizeGB + "GB" : "") @p.RamType @p.RamBus</td></tr>
+            <tr><td>SSD</td><td>@p.StorageLabel</td></tr>
+            <tr><td>GPU</td><td>@(p.Gpu?.Name)</td></tr>
+            <tr><td>Screen</td><td>@p.ScreenLabel</td></tr>
+            <tr><td>OS</td><td>@p.OperatingSystem</td></tr>
+        </table>
+        <button class="btn-outline mt-3" type="button" data-bs-toggle="collapse" data-bs-target="#fullspec">Xem cấu hình chi tiết</button>
+        <div id="fullspec" class="collapse mt-3">
+            <table class="spec-table">
+                <tr><td>Max RAM</td><td>@p.MaxRam</td></tr>
+                <tr><td>Refresh rate</td><td>@p.RefreshRate Hz</td></tr>
+                <tr><td>Panel</td><td>@p.PanelType · @p.ColorGamut</td></tr>
+                <tr><td>Pin</td><td>@p.Battery</td></tr>
+                <tr><td>Trọng lượng</td><td>@p.Weight</td></tr>
+                <tr><td>Vỏ</td><td>@p.Material</td></tr>
+                <tr><td>Bàn phím</td><td>@p.Keyboard</td></tr>
+                <tr><td>Webcam</td><td>@p.Webcam</td></tr>
+                <tr><td>Wi-Fi / BT</td><td>@p.WiFi / @p.Bluetooth</td></tr>
+                <tr><td>Cổng</td><td>@p.Ports</td></tr>
+                <tr><td>Màu</td><td>@p.Color</td></tr>
+                <tr><td>Kích thước</td><td>@p.Dimensions</td></tr>
+            </table>
+        </div>
+    </div>
+    <div id="tab-review" class="panel d-none">
+        <h4>@Model.AverageRating/5 ★ · @Model.ReviewCount đánh giá</h4>
+        @foreach (var kv in Model.RatingBreakdown.OrderByDescending(x => x.Key))
+        {
+            var pct = Model.ReviewCount == 0 ? 0 : kv.Value * 100 / Model.ReviewCount;
+            <div class="mb-1">@kv.Key sao — @pct%</div>
+        }
+        @if (Model.CanReview)
+        {
+            <form asp-controller="Review" asp-action="Create" method="post" enctype="multipart/form-data" class="mt-3">
+                <input type="hidden" name="productId" value="@p.Id" />
+                <input type="hidden" name="slug" value="@p.Slug" />
+                <label class="form-label">Số sao</label>
+                <select name="rating" class="form-select mb-2"><option>5</option><option>4</option><option>3</option><option>2</option><option>1</option></select>
+                <textarea name="comment" class="form-control mb-2" required placeholder="Chia sẻ trải nghiệm của bạn"></textarea>
+                <input type="file" name="image" class="form-control mb-2" />
+                <button class="btn-primary" type="submit">Gửi đánh giá</button>
+            </form>
+        }
+        else if (User.Identity?.IsAuthenticated == true && !Model.HasReviewed)
+        {
+            <p class="muted">Bạn chỉ có thể đánh giá sau khi đơn hàng hoàn thành.</p>
+        }
+        @foreach (var r in Model.Reviews)
+        {
+            <div class="mt-3 border-top pt-3">
+                <strong>@r.User.FullName</strong> · <span class="stars">@(new string('★', r.Rating))</span>
+                <p>@r.Comment</p>
+                @if (r.UserId == User.FindFirst(System.Security.Claims.ClaimTypes.NameIdentifier)?.Value)
+                {
+                    <form asp-controller="Review" asp-action="Delete" asp-route-id="@r.Id" method="post" class="d-inline">
+                        <input type="hidden" name="slug" value="@p.Slug" />
+                        <button class="btn-outline btn-sm">Xóa</button>
+                    </form>
+                }
+            </div>
+        }
+    </div>
+    <div id="tab-warranty" class="panel d-none">
+        <p>Sản phẩm được bảo hành chính hãng @p.WarrantyMonths tháng tại trung tâm ủy quyền. LaptopZone hỗ trợ tiếp nhận máy, kiểm tra và theo dõi tiến độ bảo hành giúp khách hàng.</p>
+        <p>Không bảo hành các lỗi do rơi vỡ, vào nước, can thiệp phần cứng trái phép.</p>
+    </div>
+
+    <h2 class="section-title mt-5">Sản phẩm tương tự</h2>
+    <div class="product-grid">
+        @foreach (var rel in Model.Related) { <partial name="_ProductCard" model="rel" /> }
+    </div>
+</div>
+@section Scripts {
+<script>
+document.querySelectorAll('.tabs button').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tabs button').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    ['desc','spec','review','warranty'].forEach(id => {
+      document.getElementById('tab-'+id).classList.toggle('d-none', btn.dataset.tab !== id);
+    });
+  });
+});
+document.getElementById('add-detail').dataset.qty = 1;
+document.getElementById('qty').addEventListener('change', e => document.getElementById('add-detail').dataset.qty = e.target.value);
+</script>
+}

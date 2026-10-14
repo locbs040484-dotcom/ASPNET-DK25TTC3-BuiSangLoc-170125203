@@ -1,0 +1,26 @@
+@model ProfileVm
+@{ ViewData["Title"] = "Tài khoản"; }
+<div class="container-xl page-head"><div class="breadcrumb"><a href="/">Trang chủ</a> › Tài khoản</div><h1 class="h3">Tài khoản</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <div class="panel">
+        <form method="post" enctype="multipart/form-data">
+            <img src="@(Model.Avatar ?? "/images/avatars/default.svg")" width="80" class="rounded-circle mb-3" alt="" />
+            <label class="form-label">Họ tên</label><input asp-for="FullName" class="form-control mb-2" />
+            <label class="form-label">Email</label><input asp-for="Email" class="form-control mb-2" readonly />
+            <label class="form-label">Số điện thoại</label><input asp-for="Phone" class="form-control mb-2" />
+            <label class="form-label">Ngày sinh</label><input asp-for="DateOfBirth" class="form-control mb-2" />
+            <label class="form-label">Giới tính</label>
+            <select asp-for="Gender" class="form-select mb-2">
+                <option value="">--</option>
+                <option value="Male">Nam</option>
+                <option value="Female">Nữ</option>
+                <option value="Other">Khác</option>
+            </select>
+            <label class="form-label">Ảnh đại diện</label>
+            <input type="file" name="avatar" class="form-control mb-3" />
+            <button class="btn-primary">Cập nhật</button>
+        </form>
+        <form method="post" asp-action="Logout" class="mt-3"><button class="btn-outline">Đăng xuất</button></form>
+    </div>
+</div>

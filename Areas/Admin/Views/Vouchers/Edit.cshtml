@@ -1,0 +1,16 @@
+@model Voucher
+<form method="post" class="panel">
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="Code" class="form-control mb-2" />
+    <input asp-for="Description" class="form-control mb-2" />
+    <select asp-for="DiscountType" class="form-select mb-2" asp-items="Html.GetEnumSelectList<DiscountType>()"></select>
+    <input asp-for="DiscountValue" class="form-control mb-2" />
+    <input asp-for="MaximumDiscount" class="form-control mb-2" />
+    <input asp-for="MinimumOrderAmount" class="form-control mb-2" />
+    <input asp-for="StartDate" class="form-control mb-2" />
+    <input asp-for="EndDate" class="form-control mb-2" />
+    <input asp-for="Quantity" class="form-control mb-2" />
+    <input asp-for="UsedQuantity" class="form-control mb-2" />
+    <label><input asp-for="IsActive" /> Active</label>
+    <button class="btn-primary d-block mt-2">Lưu</button>
+</form>

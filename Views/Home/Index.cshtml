@@ -1,0 +1,144 @@
+﻿@using LaptopStore.Models
+@{
+    ViewData["Title"] = "Trang chủ";
+    var banners = ViewBag.Banners as List<Banner> ?? new();
+    var categories = (ViewBag.Categories as List<Category> ?? new()).Where(c => new[] { "laptop-gaming", "laptop-sinh-vien", "laptop-van-phong", "laptop-do-hoa", "macbook", "laptop-mong-nhe" }.Contains(c.Slug)).ToList();
+    var brands = ViewBag.Brands as List<Brand> ?? new();
+    var featured = ViewBag.Featured as List<ProductCardVm> ?? new();
+    var onSale = ViewBag.OnSale as List<ProductCardVm> ?? new();
+    var gaming = ViewBag.Gaming as List<ProductCardVm> ?? new();
+    var office = ViewBag.Office as List<ProductCardVm> ?? new();
+    var best = ViewBag.BestSellers as List<ProductCardVm> ?? new();
+    var newest = ViewBag.NewArrivals as List<ProductCardVm> ?? new();
+}
+<section class="hero">
+    <div class="container-xl">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                @for (var i = 0; i < banners.Count; i++)
+                {
+                    <div class="carousel-item @(i == 0 ? "active" : "")">
+                        <div class="hero-slide">
+                            <img class="hero-photo" src="@banners[i].ImageUrl" alt="@banners[i].Title" />
+                            <div class="hero-copy">
+                                <div class="hero-kicker">LaptopZone</div>
+                                <h1>@banners[i].Title.ToUpper()</h1>
+                                <p class="muted">@banners[i].Subtitle</p>
+                                <div><a class="btn-primary" href="@banners[i].Link">@(banners[i].ButtonText ?? "Khám phá ngay")</a></div>
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev"></button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next"></button>
+            <div class="carousel-indicators position-relative mt-3">
+                @for (var i = 0; i < banners.Count; i++)
+                {
+                    <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="@i" class="@(i==0?"active":"")"></button>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section">
+    <div class="container-xl">
+        <h2 class="section-title">Danh mục nổi bật</h2>
+        <div class="cat-grid">
+            @foreach (var c in categories)
+            {
+                <a class="cat-card" href="/products?category=@c.Slug">
+                    <img src="@c.ImageUrl" alt="@c.Name" />
+                    <div class="fw-semibold">@c.Name.Replace("Laptop ", "")</div>
+                </a>
+            }
+        </div>
+    </div>
+</section>
+
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Laptop nổi bật</h2>
+        <div class="product-grid">@foreach (var p in featured) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Laptop đang giảm giá</h2>
+        <div class="product-grid">@foreach (var p in onSale) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Laptop Gaming</h2>
+        <div class="product-grid">@foreach (var p in gaming) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Laptop văn phòng</h2>
+        <div class="product-grid">@foreach (var p in office) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Laptop bán chạy</h2>
+        <div class="product-grid">@foreach (var p in best) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Sản phẩm mới</h2>
+        <div class="product-grid">@foreach (var p in newest) { <partial name="_ProductCard" model="p" /> }</div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Thương hiệu</h2>
+        <div class="brand-row">
+            @foreach (var b in brands)
+            {
+                <a class="brand-item" href="/products?brands=@b.Slug"><img src="@b.Logo" alt="@b.Name" /></a>
+            }
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <h2 class="section-title">Vì sao chọn chúng tôi</h2>
+        <div class="why-grid">
+            <div class="why-item"><i class="bi bi-patch-check"></i><h5>Sản phẩm chính hãng</h5><p class="muted mb-0">Nhập đúng nguồn, hóa đơn đầy đủ.</p></div>
+            <div class="why-item"><i class="bi bi-shield-check"></i><h5>Bảo hành rõ ràng</h5><p class="muted mb-0">12–24 tháng theo từng mẫu máy.</p></div>
+            <div class="why-item"><i class="bi bi-truck"></i><h5>Giao hàng nhanh</h5><p class="muted mb-0">Nội thành 2–4 giờ, tỉnh 1–3 ngày.</p></div>
+            <div class="why-item"><i class="bi bi-lock"></i><h5>Thanh toán an toàn</h5><p class="muted mb-0">COD hoặc chuyển khoản minh bạch.</p></div>
+            <div class="why-item"><i class="bi bi-headset"></i><h5>Hỗ trợ kỹ thuật</h5><p class="muted mb-0">Tư vấn cấu hình trước và sau bán.</p></div>
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <div class="d-flex justify-content-between"><h2 class="section-title">Blog</h2><a href="/blog">Xem tất cả</a></div>
+        <div class="blog-grid">
+            <a class="blog-card" href="/blog/top-laptop-sinh-vien-dang-mua"><img src="/images/blog/blog-sv.jpg" alt="" /><div class="body"><h5>Top laptop sinh viên đáng mua</h5><p class="muted mb-0">Gợi ý máy học tập trong các khoảng giá phổ biến.</p></div></a>
+            <a class="blog-card" href="/blog/huong-dan-chon-laptop-hoc-lap-trinh"><img src="/images/blog/blog-code.jpg" alt="" /><div class="body"><h5>Hướng dẫn chọn laptop học lập trình</h5><p class="muted mb-0">Cấu hình tối thiểu cho sinh viên IT.</p></div></a>
+            <a class="blog-card" href="/blog/laptop-gaming-can-bao-nhieu-ram"><img src="/images/blog/blog-ram.jpg" alt="" /><div class="body"><h5>Laptop Gaming cần bao nhiêu RAM?</h5><p class="muted mb-0">8GB, 16GB hay 32GB cho game hiện tại.</p></div></a>
+            <a class="blog-card" href="/blog/co-nen-mua-laptop-man-hinh-oled"><img src="/images/blog/blog-oled.jpg" alt="" /><div class="body"><h5>Có nên mua laptop màn hình OLED?</h5><p class="muted mb-0">Ưu nhược điểm khi học tập và đồ họa.</p></div></a>
+        </div>
+    </div>
+</section>
+<section class="section" style="padding-top:0">
+    <div class="container-xl">
+        <form id="newsletter-form" class="newsletter">
+            @Html.AntiForgeryToken()
+            <div>
+                <h3 class="mb-1">Nhận ưu đãi laptop mỗi tuần</h3>
+                <div class="muted" style="color:#94a3b8">Không spam. Chỉ gửi tin khuyến mãi và bài tư vấn.</div>
+            </div>
+            <div class="d-flex gap-2 flex-wrap">
+                <input name="email" type="email" required placeholder="Email của bạn" />
+                <button class="btn-primary" type="submit">Đăng ký</button>
+            </div>
+        </form>
+    </div>
+</section>

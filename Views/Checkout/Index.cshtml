@@ -1,0 +1,84 @@
+@model CheckoutVm
+@{ ViewData["Title"] = "Thanh toán"; }
+<div class="container-xl page-head">
+    <div class="breadcrumb"><a href="/">Trang chủ</a> › <a href="/cart">Giỏ hàng</a> › Thanh toán</div>
+    <h1 class="h3">Thanh toán</h1>
+</div>
+<div class="container-xl pb-5">
+    <form method="post">
+        <div class="row g-4">
+            <div class="col-lg-7">
+                <div class="panel">
+                    <h4>Thông tin nhận hàng</h4>
+                    @if (Model.Addresses.Any())
+                    {
+                        <label class="form-label">Địa chỉ đã lưu</label>
+                        <select class="form-select mb-3" onchange="fillAddr(this)">
+                            <option value="">-- Chọn --</option>
+                            @foreach (var a in Model.Addresses)
+                            {
+                                <option data-name="@a.ReceiverName" data-phone="@a.Phone" data-p="@a.Province" data-d="@a.District" data-w="@a.Ward" data-line="@a.AddressLine">@a.ReceiverName - @a.AddressLine</option>
+                            }
+                        </select>
+                    }
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <label class="form-label">Họ tên</label>
+                    <input asp-for="ReceiverName" class="form-control mb-2" />
+                    <span asp-validation-for="ReceiverName" class="text-danger"></span>
+                    <label class="form-label">SĐT</label>
+                    <input asp-for="Phone" class="form-control mb-2" />
+                    <label class="form-label">Email</label>
+                    <input asp-for="Email" class="form-control mb-2" />
+                    <div class="row">
+                        <div class="col-md-4"><label class="form-label">Tỉnh/thành</label><input asp-for="Province" class="form-control mb-2" /></div>
+                        <div class="col-md-4"><label class="form-label">Quận/huyện</label><input asp-for="District" class="form-control mb-2" /></div>
+                        <div class="col-md-4"><label class="form-label">Phường/xã</label><input asp-for="Ward" class="form-control mb-2" /></div>
+                    </div>
+                    <label class="form-label">Địa chỉ</label>
+                    <input asp-for="AddressLine" class="form-control mb-2" />
+                    <label class="form-label">Ghi chú</label>
+                    <textarea asp-for="Note" class="form-control mb-2"></textarea>
+                    <h5 class="mt-3">Phương thức thanh toán</h5>
+                    <label class="d-block mb-2"><input type="radio" asp-for="PaymentMethod" value="COD" checked /> Thanh toán khi nhận hàng (COD)</label>
+                    <label class="d-block mb-2"><input type="radio" asp-for="PaymentMethod" value="BankTransfer" /> Chuyển khoản ngân hàng</label>
+                    <div class="border rounded p-3 mt-2">
+                        <div>Ngân hàng: @Model.Setting.BankName</div>
+                        <div>Số TK: @Model.Setting.BankAccountNumber</div>
+                        <div>Chủ TK: @Model.Setting.BankAccountName</div>
+                        <div>Nội dung: LZ + số điện thoại</div>
+                        <img src="/images/banners/qr-demo.svg" alt="QR" width="140" class="mt-2" />
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="summary-box">
+                    <h4>Đơn hàng</h4>
+                    @foreach (var i in Model.Cart.Items)
+                    {
+                        <div class="d-flex justify-content-between mb-2"><span>@i.Name x @i.Quantity</span><span>@CurrencyHelper.ToVnd(i.SubTotal)</span></div>
+                    }
+                    <hr />
+                    <div class="d-flex justify-content-between"><span>Tạm tính</span><span>@CurrencyHelper.ToVnd(Model.Cart.SubTotal)</span></div>
+                    <div class="d-flex justify-content-between"><span>Giảm giá</span><span>@CurrencyHelper.ToVnd(Model.Cart.Discount)</span></div>
+                    <div class="d-flex justify-content-between"><span>Phí vận chuyển</span><span>@CurrencyHelper.ToVnd(Model.Cart.ShippingFee)</span></div>
+                    <div class="d-flex justify-content-between fw-bold mt-2"><span>Tổng</span><span class="price">@CurrencyHelper.ToVnd(Model.Cart.Total)</span></div>
+                    <button class="btn-primary w-100 mt-3" type="submit">Đặt hàng</button>
+                </div>
+            </div>
+        </div>
+    </form>
+</div>
+@section Scripts {
+<script>
+function fillAddr(sel){
+  const o = sel.selectedOptions[0]; if(!o.dataset.name) return;
+  document.getElementById('ReceiverName').value=o.dataset.name;
+  document.getElementById('Phone').value=o.dataset.phone;
+  document.getElementById('Province').value=o.dataset.p;
+  document.getElementById('District').value=o.dataset.d;
+  document.getElementById('Ward').value=o.dataset.w;
+  document.getElementById('AddressLine').value=o.dataset.line;
+}
+</script>
+<partial name="_ValidationScriptsPartial" />
+}

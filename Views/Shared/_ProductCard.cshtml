@@ -1,0 +1,32 @@
+@model ProductCardVm
+<div class="product-card">
+    <a href="/products/@Model.Slug" class="thumb">
+        <img src="@Model.ImageUrl" alt="@Model.Name" />
+    </a>
+    <div class="badge-row">
+        @if (Model.IsNew) { <span class="badge-soft badge-new">MỚI</span> }
+        @if (Model.IsFeatured) { <span class="badge-soft badge-hot">HOT</span> }
+        @if (Model.IsBestSeller) { <span class="badge-soft badge-best">BÁN CHẠY</span> }
+        @if (Model.HasDiscount) { <span class="badge-soft badge-sale">GIẢM @Model.DiscountPercent%</span> }
+    </div>
+    <div class="brand-label">@Model.BrandName</div>
+    <h3><a href="/products/@Model.Slug">@Model.Name</a></h3>
+    <div class="spec-line">@Model.CpuName · @Model.RamLabel · @Model.StorageLabel</div>
+    <div class="spec-line">@Model.GpuName · @Model.ScreenLabel</div>
+    <div class="mb-2">
+        <span class="stars">★</span> @(Model.AverageRating > 0 ? Model.AverageRating.ToString("0.0") : "—")
+        <span class="muted">(@Model.ReviewCount)</span>
+    </div>
+    <div class="mb-2">
+        <div class="price">@CurrencyHelper.ToVnd(Model.SalePrice)</div>
+        @if (Model.HasDiscount)
+        {
+            <div class="price-old">@CurrencyHelper.ToVnd(Model.OriginalPrice)</div>
+        }
+    </div>
+    <div class="card-actions">
+        <button class="btn-primary btn-sm" data-add-cart="@Model.Id">Thêm giỏ</button>
+        <button class="btn-outline btn-sm" data-wish="@Model.Id" title="Yêu thích"><i class="bi bi-heart"></i></button>
+        <button class="btn-outline btn-sm" data-compare="@Model.Id" title="So sánh"><i class="bi bi-arrow-left-right"></i></button>
+    </div>
+</div>

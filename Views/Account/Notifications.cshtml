@@ -1,0 +1,17 @@
+@model List<Notification>
+@{ ViewData["Title"] = "Thông báo"; }
+<div class="container-xl page-head"><h1 class="h3">Thông báo</h1></div>
+<div class="container-xl pb-5 account-layout">
+    <partial name="_AccountNav" />
+    <div>
+        <form method="post" asp-action="ReadAll" class="mb-3"><button class="btn-outline btn-sm">Đánh dấu đã đọc</button></form>
+        @foreach (var n in Model)
+        {
+            <a class="panel d-block mb-2" href="@(n.Link ?? "#")">
+                <strong>@n.Title</strong>
+                <div class="muted">@n.Message</div>
+                <small>@n.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm")</small>
+            </a>
+        }
+    </div>
+</div>

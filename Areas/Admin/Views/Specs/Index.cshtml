@@ -1,0 +1,28 @@
+@{
+    ViewData["Title"] = "Thông số";
+    var cpus = (List<Cpu>)ViewBag.Cpus;
+    var gpus = (List<Gpu>)ViewBag.Gpus;
+}
+<h1 class="h4">CPU / GPU / RAM / Ổ cứng / Màn hình / Màu</h1>
+<div class="row g-3">
+    <div class="col-md-6 panel">
+        <h5>CPU</h5>
+        <ul>@foreach (var c in cpus){<li>@c.Name</li>}</ul>
+        <form method="post" asp-action="AddCpu" class="d-flex gap-2">
+            <input name="name" class="form-control" placeholder="Tên" />
+            <input name="brand" class="form-control" placeholder="Hãng" />
+            <input name="filterKey" class="form-control" placeholder="i5" />
+            <button class="btn-outline">Thêm</button>
+        </form>
+    </div>
+    <div class="col-md-6 panel">
+        <h5>GPU</h5>
+        <ul>@foreach (var g in gpus){<li>@g.Name</li>}</ul>
+        <form method="post" asp-action="AddGpu" class="d-flex gap-2">
+            <input name="name" class="form-control" placeholder="Tên" />
+            <input name="type" class="form-control" placeholder="Dedicated" />
+            <input name="filterKey" class="form-control" placeholder="rtx4050" />
+            <button class="btn-outline">Thêm</button>
+        </form>
+    </div>
+</div>

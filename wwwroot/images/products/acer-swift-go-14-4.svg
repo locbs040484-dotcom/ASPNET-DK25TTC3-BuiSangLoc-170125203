@@ -1,0 +1,11 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1000' height='750' viewBox='0 0 1000 750'>
+  <rect width='1000' height='750' fill='#F3F4F6'/>
+  <rect x='80' y='70' width='840' height='610' rx='28' fill='#FFFFFF' stroke='#E5E7EB'/>
+  <rect x='205' y='130' width='620' height='390' rx='18' fill='#1F2937'/>
+  <rect x='225' y='148' width='580' height='340' rx='8' fill='#334155'/>
+  <text x='500' y='300' text-anchor='middle' fill='#FFFFFF' font-family='Inter,Arial' font-size='28' font-weight='700'>Swift Go 14</text>
+  <text x='500' y='340' text-anchor='middle' fill='#CBD5E1' font-family='Inter,Arial' font-size='16'>Acer Â· OLED Â· gÃ³c 4</text>
+  <rect x='160' y='530' width='680' height='28' rx='8' fill='#D1D5DB'/>
+  <rect x='300' y='562' width='400' height='14' rx='6' fill='#9CA3AF'/>
+  <circle cx='860' cy='160' r='8' fill='#16A34A'/>
+</svg>

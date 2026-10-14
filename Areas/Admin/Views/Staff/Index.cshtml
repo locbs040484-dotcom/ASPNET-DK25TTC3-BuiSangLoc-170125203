@@ -1,0 +1,13 @@
+@model List<ApplicationUser>
+<h1 class="h4">Nhân viên <a class="btn-primary btn-sm" href="/admin/staff/create">Thêm</a></h1>
+<table class="table">
+@foreach (var u in Model)
+{
+    <tr>
+        <td>@u.FullName</td><td>@u.Email</td><td>@(u.IsActive?"Active":"Khóa")</td>
+        <td><a href="/admin/staff/edit/@u.Id">Sửa</a>
+            <form method="post" asp-action="ToggleLock" class="d-inline"><input type="hidden" name="id" value="@u.Id" /><button class="btn-outline btn-sm">Khóa/Mở</button></form>
+        </td>
+    </tr>
+}
+</table>

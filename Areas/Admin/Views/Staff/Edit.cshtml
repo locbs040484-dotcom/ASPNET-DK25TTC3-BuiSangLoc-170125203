@@ -1,0 +1,10 @@
+@model StaffForm
+<form method="post" class="panel">
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="Email" class="form-control mb-2" readonly />
+    <input asp-for="FullName" class="form-control mb-2" />
+    <input asp-for="Phone" class="form-control mb-2" />
+    <select asp-for="Role" class="form-select mb-2"><option>Staff</option><option>Admin</option></select>
+    <label><input asp-for="IsActive" /> Active</label>
+    <button class="btn-primary d-block mt-2">Lưu</button>
+</form>

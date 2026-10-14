@@ -1,0 +1,13 @@
+@model Order
+@{ ViewData["Title"] = "Đặt hàng thành công"; }
+<div class="container-xl py-5">
+    <div class="empty-state">
+        <h2>Đặt hàng thành công</h2>
+        <p>Mã đơn <strong>@Model.OrderCode</strong> đã được ghi nhận. Tổng thanh toán @CurrencyHelper.ToVnd(Model.TotalAmount).</p>
+        @if (Model.PaymentMethod == PaymentMethod.BankTransfer)
+        {
+            <p>Vui lòng chuyển khoản với nội dung <strong>@Model.OrderCode</strong> để nhân viên xác nhận.</p>
+        }
+        <a class="btn-primary" href="/account/orders/@Model.OrderCode">Theo dõi đơn hàng</a>
+    </div>
+</div>

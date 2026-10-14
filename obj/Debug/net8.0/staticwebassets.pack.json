@@ -1,0 +1,2417 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\LaptopStore.bundle.scp.css",
+      "PackagePath": "staticwebassets\\LaptopStore.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-02.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-03.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-04.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-05.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-05.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-06.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-08.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-11.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-13.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-14.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-15.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-17.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-18.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-19.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-20.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-21.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-22.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-23.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-24.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\extra-25.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\extra-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-01.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-01.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-02.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-02.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-03.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-04.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-04.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-06.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-06.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-07.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-07.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-08.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-08.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-10.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-10.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-11.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-11.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-13.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-13.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-14.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-14.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-15.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-15.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-16.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-16.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-17.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-17.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-18.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-18.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-19.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-20.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-20.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-21.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-21.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-22.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-23.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-23.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-24.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-24.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-25.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-25.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-26.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-26.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-27.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-27.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-29.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-29.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-30.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-31.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-31.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-32.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-32.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-33.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-33.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-34.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-34.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-35.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-35.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-36.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-36.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-37.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-37.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-38.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-39.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-39.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-40.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-40.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-41.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-41.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-42.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-42.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-43.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-43.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-44.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-44.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-45.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-45.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-46.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-46.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-47.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-47.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-48.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-48.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-49.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-49.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-50.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-50.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-51.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-51.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-52.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-52.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-53.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-53.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-54.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-54.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-55.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-55.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-56.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-56.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-57.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-57.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-58.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-58.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\_source\\pool-59.jpg",
+      "PackagePath": "staticwebassets\\images\\_source\\pool-59.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\avatars\\default.svg",
+      "PackagePath": "staticwebassets\\images\\avatars\\default.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-gaming.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-gaming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-gaming.svg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-gaming.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-mac.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-mac.svg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-mac.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-office.jpg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-office.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\banner-office.svg",
+      "PackagePath": "staticwebassets\\images\\banners\\banner-office.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\banners\\qr-demo.svg",
+      "PackagePath": "staticwebassets\\images\\banners\\qr-demo.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-check.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-check.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-check.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-check.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-code.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-code.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-code.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-code.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-cpu.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-cpu.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-cpu.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-cpu.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-m2m3.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-m2m3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-m2m3.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-m2m3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-office.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-office.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-office.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-office.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-oled.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-oled.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-oled.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-oled.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-pin.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-pin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-pin.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-pin.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-ram.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-ram.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-ram.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-ram.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-sv.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-sv.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-sv.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-sv.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-tuf-loq.jpg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-tuf-loq.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\blog\\blog-tuf-loq.svg",
+      "PackagePath": "staticwebassets\\images\\blog\\blog-tuf-loq.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\acer.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\acer.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\apple.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\apple.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\asus.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\asus.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\dell.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\dell.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\gigabyte.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\gigabyte.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\hp.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\hp.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\lenovo.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\lenovo.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\brands\\msi.svg",
+      "PackagePath": "staticwebassets\\images\\brands\\msi.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\business.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\business.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\business.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\business.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\design.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\design.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\design.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\design.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\gaming.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\gaming.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\gaming.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\gaming.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\mac.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\mac.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\mac.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\mac.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\office.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\office.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\office.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\office.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\student.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\student.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\student.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\student.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\thin.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\thin.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\thin.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\thin.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\workstation.jpg",
+      "PackagePath": "staticwebassets\\images\\categories\\workstation.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\categories\\workstation.svg",
+      "PackagePath": "staticwebassets\\images\\categories\\workstation.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-5-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-5-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-aspire-7-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-aspire-7-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-16-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-16-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-nitro-v15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-nitro-v15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-predator-neo-16-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-predator-neo-16-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\acer-swift-go-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\acer-swift-go-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-rog-strix-g16-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-rog-strix-g16-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-a15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-a15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-tuf-f15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-tuf-f15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-14-oled-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-14-oled-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-vivobook-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-vivobook-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zenbook-14-oled-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zenbook-14-oled-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\asus-zephyrus-g14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\asus-zephyrus-g14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-g15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-g15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-inspiron-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-inspiron-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-latitude-3540-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-latitude-3540-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-vostro-3530-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-vostro-3530-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\dell-xps-13-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\dell-xps-13-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-envy-x360-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-envy-x360-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-pavilion-plus-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-pavilion-plus-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\hp-victus-16-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\hp-victus-16-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-3-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-3-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-ideapad-slim-5-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-ideapad-slim-5-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-legion-5-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-legion-5-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-loq-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-loq-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkbook-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkbook-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-thinkpad-e14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-thinkpad-e14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\lenovo-yoga-slim-7-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\lenovo-yoga-slim-7-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m2-13-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m2-13-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-13-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-13-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-air-m3-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-air-m3-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\macbook-pro-m3-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\macbook-pro-m3-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-cyborg-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-cyborg-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-katana-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-katana-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-14-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-14-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-modern-15-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-modern-15-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-1.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-1.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-1.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-2.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-2.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-2.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-3.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-3.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-3.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-4.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-4.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-4.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-5.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\msi-thin-gf63-5.svg",
+      "PackagePath": "staticwebassets\\images\\products\\msi-thin-gf63-5.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\placeholder.jpg",
+      "PackagePath": "staticwebassets\\images\\products\\placeholder.jpg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\images\\products\\placeholder.svg",
+      "PackagePath": "staticwebassets\\images\\products\\placeholder.svg"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\SL\\Downloads\\deadlineWebBanLaptopAsp\\LaptopStore\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.LaptopStore.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.LaptopStore.props",
+      "PackagePath": "build\\LaptopStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.LaptopStore.props",
+      "PackagePath": "buildMultiTargeting\\LaptopStore.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.LaptopStore.props",
+      "PackagePath": "buildTransitive\\LaptopStore.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

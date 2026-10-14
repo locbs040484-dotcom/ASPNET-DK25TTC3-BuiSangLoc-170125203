@@ -1,0 +1,40 @@
+@model Order
+@{ ViewData["Title"] = Model.OrderCode; }
+<div class="container-xl page-head"><div class="breadcrumb"><a href="/">Trang chủ</a> › <a href="/account/orders">Đơn hàng</a> › @Model.OrderCode</div><h1 class="h3">Đơn @Model.OrderCode</h1></div>
+<div class="container-xl pb-5">
+    <div class="panel mb-3">
+        <div>Người nhận: @Model.ReceiverName · @Model.Phone</div>
+        <div>Địa chỉ: @Model.Address</div>
+        <div>Thanh toán: @OrderStatusHelper.PaymentMethodToVietnamese(Model.PaymentMethod) · @OrderStatusHelper.PaymentToVietnamese(Model.PaymentStatus)</div>
+        <div>Trạng thái: <span class="status-badge @OrderStatusHelper.BadgeClass(Model.OrderStatus)">@OrderStatusHelper.ToVietnamese(Model.OrderStatus)</span></div>
+        @if (Model.OrderStatus == OrderStatus.Pending)
+        {
+            <form method="post" asp-action="CancelOrder" asp-route-code="@Model.OrderCode" class="mt-3"><button class="btn-outline">Hủy đơn</button></form>
+        }
+    </div>
+    <div class="panel mb-3">
+        <h4>Sản phẩm</h4>
+        @foreach (var d in Model.Details)
+        {
+            <div class="d-flex justify-content-between mb-2">
+                <div class="d-flex gap-2"><img src="@d.ProductImage" width="64" style="object-fit:contain" alt="" /><div>@d.ProductName x @d.Quantity</div></div>
+                <div>@CurrencyHelper.ToVnd(d.SubTotal)</div>
+            </div>
+        }
+        <hr />
+        <div>Tạm tính @CurrencyHelper.ToVnd(Model.SubTotal) · Giảm @CurrencyHelper.ToVnd(Model.DiscountAmount) · Ship @CurrencyHelper.ToVnd(Model.ShippingFee)</div>
+        <div class="price">Tổng @CurrencyHelper.ToVnd(Model.TotalAmount)</div>
+    </div>
+    <div class="panel">
+        <h4>Tiến trình đơn hàng</h4>
+        <div class="timeline">
+            @foreach (var h in Model.StatusHistories.OrderBy(x => x.CreatedAt))
+            {
+                <div class="timeline-item">
+                    <strong>@OrderStatusHelper.ToVietnamese(h.Status)</strong>
+                    <div class="muted">@h.CreatedAt.ToLocalTime().ToString("dd/MM/yyyy HH:mm") · @h.Note</div>
+                </div>
+            }
+        </div>
+    </div>
+</div>
